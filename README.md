@@ -8,6 +8,8 @@ Tool to penetrate V2G networks, monitor and inject packets to attack electric ca
 - Slides from SSTIC 2019: https://www.sstic.org/media/SSTIC2019/SSTIC-actes/v2g_injector_playing_with_electric_cars_and_chargi/SSTIC2019-Slides-v2g_injector_playing_with_electric_cars_and_charging_stations_via_powerline-dudek.pdf
 - Video recording from SSTIC 2019 (in French): https://static.sstic.org/videos2019/1080p/SSTIC_2019-06-07_P06.mp4
 
+Support: contact the [Penthertz company](https://penthertz.com/) which is the owner of the project.
+
 ## Dependencies
 
 ### Software 
@@ -34,7 +36,8 @@ The tool has been tested with following devices:
 
 * dLAN Green PHY eval board EU II (~150€)
 * PLC Stamp Micro 2 Evaluation Board (Home Automation) (~300€)
-* Devolo 1200+ (~50€) -> to rework if you want to bind it to CP lines
+* Devolo 1200+ (~50€) -> to rework if you want to bind it to CP lines -> dangerous to get access on TR+/- lines /!\
+* Working on QCA7420 chips, but attenuation must be forced on EVSE side for the SLAC procedure
 * TODO: test other devices with a QCA7k PLC baseband.
 
 ## Connections
